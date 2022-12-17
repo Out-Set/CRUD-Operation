@@ -1,0 +1,14 @@
+# Either you can use application.properties or application.yml
+
+#spring:
+#  datasource:
+#    username: root
+#    password: @Root123$
+#    url: jdbc:mysql://localhost:3306/product
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#
+#  jpa:
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: update
+#    properties.hibernate.dialect: org.hibernate.dialectMySQl5Dialect
