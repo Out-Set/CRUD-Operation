@@ -47,7 +47,7 @@ public class ProductService {
     public Product updateProduct(Product product){
         Product existingProduct;
 
-        // Fetching whether product is available in table or nor
+        // Fetching whether product is available in table or not
         existingProduct = productRepository.findById(product.getId()).orElse(null);
         existingProduct.setName(product.getName());
         existingProduct.setQuantity(product.getQuantity());
